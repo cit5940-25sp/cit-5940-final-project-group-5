@@ -2,7 +2,7 @@ import java.util.*;
 
 public class InfluenceEvaluator {
     private PriorityQueue<ThoughtAgent> agentQueue;
-    private Stack<String> recentDecisions;
+    public Stack<String> recentDecisions;
 
     public InfluenceEvaluator() {
         agentQueue = new PriorityQueue<>(Comparator.comparingInt(ThoughtAgent::getInfluenceScore).reversed());
