@@ -1,16 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nK589Lr0)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18909432&assignment_repo_type=AssignmentRepo)
-# Final Project Template
+## Thought Process Simulation Engine
 
-This is an example of a project directory for you to start working from. Please use it!
+### Overview
+The Thought Process Simulation Engine is a cognitive modeling project that simulates human-like decision-making. It introduces "thought agents" that compete to influence final decisions within a structured hierarchy. The project aims to explore internal cognitive conflicts and optimize multi-layered decision processing using fundamental computer science data structures.
+### Features and Data Structures
+Thought Agents (Set + HashMap): Models distinct decision-making influences and tracks their impact.
 
+Hierarchical Thought Layers (Binary Tree + TreeMap): Represents structured reasoning and past decision trees.
 
-```text
-|
-|--- .gitignore # lists all of the junk that might exist in your folder that should not be committed
-|--- README.md # explanation for the purpose of your repo
-|--- src
-    |----- *.java (source code files)
-|--- test
-    |----- *Test.java (unit test files)
-```
+Influence Evaluation (Priority Queue + Stack): Dynamically ranks agent influence with short-term memory tracking.
+
+CLI User Interface: Allows users to input scenarios and view the most influential thought agent’s outcome.
