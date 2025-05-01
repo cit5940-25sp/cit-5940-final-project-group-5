@@ -1,7 +1,19 @@
+/**
+ * The SimulationEngine class coordinates the core components of the
+ * thought process simulation. It acts as the central controller for:
+ * 
+ * - Managing agents through ThoughtAgentManager
+ * - Evaluating influence via InfluenceEvaluator
+ * - Structuring decisions in a hierarchical ThoughtTree
+ * 
+ * The engine is responsible for executing decision-making scenarios
+ * and exposing access to its main components.
+ */
+
 public class SimulationEngine {
-    private ThoughtAgentManager agentManager;
-    private ThoughtTree thoughtTree;
-    private InfluenceEvaluator evaluator;
+    private ThoughtAgentManager agentManager;   // Manages the collection of ThoughtAgents
+    private ThoughtTree thoughtTree;    // Represents a decision tree used in simulations
+    private InfluenceEvaluator evaluator;   // Evaluates and ranks agents based on influence
 
     public SimulationEngine() {
         agentManager = new ThoughtAgentManager();
